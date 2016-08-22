@@ -1,4 +1,4 @@
-<md-dialog aria-label="Mango (Fruit)">
+<md-dialog aria-label="Mango (Fruit)"    style="max-height: 90%;">
     <form>
         <md-toolbar>
             <div class="md-toolbar-tools">
@@ -9,19 +9,19 @@
                 </md-button>
             </div>
         </md-toolbar>
-        <md-dialog-content style="max-width:860px;max-height:860px; ">
+        <md-dialog-content style="max-width:480px;max-height:800px; ">            <!--style="max-width:480px;max-height:602px; "-->
             <md-tabs md-dynamic-height md-border-bottom>
                 <md-tab label="one">
-                    <md-content class="md-padding">
-                        <h1 class="md-display-2">Tab One</h1>
+                    <md-content class="md-padding" style="  overflow-x: hidden;">
+                        <!--<h1 class="md-display-2">Tab One</h1>-->
 
-                        <button ng-click="adder()">clickkkkkkkkkkkk</button>
+
                         <div ui-view="show"></div>
-                        <md-content class="autoScroll">
+                        <!--<md-content class="autoScroll">-->
                             <div layout="row">
 
                                 <ng-md-icon icon="person" style="fill:black; margin-bottom: 9%;" size="24"></ng-md-icon>
-                                <md-input-container class="md-icon-float">
+                                <md-input-container class="md-icon-float"   style="margin-right: 5%;">
                                     <!-- Use floating label instead of placeholder -->
 
                                     <label>Student Name</label>
@@ -55,7 +55,7 @@
                             <!-- </div>-->
                             <div     style="" >
                                 <label >Admission Date</label>
-                                <md-datepicker style="margin-left: 33%;" ng-model="student.admissionDate" md-placeholder="Enter date" >
+                                <md-datepicker style="margin-left: 30%;" ng-model="student.admissionDate" md-placeholder="Enter date" >
                                 </md-datepicker>
                             </div>
 
@@ -96,7 +96,7 @@
 
                             <!-- <md-button class="add-tab md-primary md-raised" ng-disabled="!tTitle || !tContent" type="submit" >Add Tab</md-button>-->
 
-                        </md-content>
+                        <!--</md-content>-->
 
                     </md-content>
                 </md-tab>

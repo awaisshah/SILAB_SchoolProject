@@ -9,8 +9,11 @@ angular.module("myApp")
 
 
 
-.controller('DashboardController', function ($scope, $timeout, $mdSidenav, $log,$mdDialog) {
+.controller('DashboardController', function ($state,$scope, $timeout, $mdSidenav, $log,$mdDialog) {
        $scope.user = firebase.auth().currentUser;
+    $scope.student = function () {
+        $state.go('dashboard.student');
+    }
 
     //-------------------------DIALOG BOX-----------------------------------------
 
@@ -138,6 +141,7 @@ angular.module("myApp")
         function DialogController($scope, $mdDialog,$state) {
             $state.go('dashboard.student');
 
+
             $scope.student = {
                 name: '',
                 guardian: '',
@@ -160,16 +164,12 @@ angular.module("myApp")
                 console.log("object s >>>>>>>",$scope.student);
             };
 
-            $scope.adder = function () {
-                alert("pakistan");
-                console.log("ADDDDDDDDDDDDDDDDDDDDDDDDDDDDDERRRRRRRRRRRRRRRRRRRRRRRRRRR FUNC()")
-                $state.go('dashboard.student')
-                //$state.go('dashboard.student1');
-            }
+
             $scope.hide = function() {
                 $mdDialog.hide();
             };
             $scope.cancel = function() {
+                $state.go('dashboard');
                 $mdDialog.cancel();
             };
             $scope.answer = function(answer) {

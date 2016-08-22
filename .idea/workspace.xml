@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a60a069-b6ad-4bcf-8893-f5e739582a1f" name="Default" comment="" />
+    <list default="true" id="1a60a069-b6ad-4bcf-8893-f5e739582a1f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/dashboard/student/add/add.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/dashboard/student/add/add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/dashboard/student/add/add.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/dashboard/student/student.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/dashboard/student/student.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/components/dashboard/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/dashboard/dashboard.js" afterPath="$PROJECT_DIR$/components/dashboard/dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/dashboard/tabDialog.tmpl.html" afterPath="$PROJECT_DIR$/components/dashboard/tabDialog.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config.js" afterPath="$PROJECT_DIR$/core/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="SILAB web project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+            <state relative-caret-position="-491">
+              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#md-toolbar#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -35,28 +47,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/dashboard/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="323">
+              <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1471758427143" expanded="false" signature="3852:3886" ph="..." />
-                <marker date="1471758427143" expanded="false" signature="4281:4296" ph="..." />
-                <marker date="1471758427143" expanded="false" signature="4374:4393" ph="..." />
-                <marker date="1471758427143" expanded="false" signature="4442:4577" ph="..." />
-                <marker date="1471758427143" expanded="false" signature="5104:5120" ph="..." />
+                <marker date="1471881680290" expanded="false" signature="3850:3884" ph="..." />
+                <marker date="1471881680290" expanded="false" signature="4279:4294" ph="..." />
+                <marker date="1471881680290" expanded="false" signature="4372:4391" ph="..." />
+                <marker date="1471881680290" expanded="false" signature="4440:4575" ph="..." />
+                <marker date="1471881680290" expanded="false" signature="5102:5118" ph="..." />
               </folding>
             </state>
           </provider>
@@ -65,18 +67,8 @@
       <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/dashboard/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2720">
-              <caret line="160" column="14" selection-start-line="160" selection-start-column="14" selection-end-line="160" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/dashboard/student/add/add.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="6" selection-start-line="9" selection-start-column="3" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="204">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -85,15 +77,22 @@
       <file leaf-file-name="tabDialog.tmpl.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/dashboard/tabDialog.tmpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
-              <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+            <state relative-caret-position="391">
+              <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
               <folding>
+                <element signature="n#style#0;n#md-dialog#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ng-md-icon#0;n#md-button#0;n#div#0;n#md-toolbar#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#md-input-container#0;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ng-md-icon#0;n#div#2;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#md-input-container#0;n#div#2;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ng-md-icon#0;n#md-input-container#1;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ng-md-icon#0;n#div#1;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-input-container#0;n#div#1;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#md-input-container#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-radio-button#0;n#md-radio-group#0;n#md-input-container#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-radio-button#1;n#md-radio-group#0;n#md-input-container#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-datepicker#0;n#div#2;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ng-md-icon#0;n#div#3;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-input-container#0;n#div#3;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ng-md-icon#0;n#md-input-container#1;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#md-button#2;n#md-dialog-actions#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -103,44 +102,9 @@
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="391">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/dashboard/student/student.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/dashboard/student/student.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/dashboard/student/add/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="86" column="17" selection-start-line="7" selection-start-column="3" selection-end-line="86" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#md-input-container#0;n#md-content#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ng-md-icon#0;n#md-input-container#1;n#md-content#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -154,6 +118,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -162,14 +129,14 @@
         <option value="$PROJECT_DIR$/components/login/login.js" />
         <option value="$PROJECT_DIR$/components/dashboard/TABDIALOG.TMPL.html" />
         <option value="$PROJECT_DIR$/components/dashboard/dashboard.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/components/student/student.html" />
         <option value="$PROJECT_DIR$/components/dashboard/student/add/add.js" />
-        <option value="$PROJECT_DIR$/components/dashboard/dashboard.html" />
-        <option value="$PROJECT_DIR$/core/config.js" />
         <option value="$PROJECT_DIR$/components/dashboard/student/student.html" />
         <option value="$PROJECT_DIR$/components/dashboard/student/student.js" />
+        <option value="$PROJECT_DIR$/core/config.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/components/dashboard/tabDialog.tmpl.html" />
+        <option value="$PROJECT_DIR$/components/dashboard/dashboard.html" />
         <option value="$PROJECT_DIR$/components/dashboard/dashboard.js" />
       </list>
     </option>
@@ -211,8 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,8 +196,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SILAB web project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SILAB web project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,12 +311,13 @@
       <workItem from="1471761480265" duration="3316000" />
       <workItem from="1471789117127" duration="365000" />
       <workItem from="1471792624963" duration="101000" />
-      <workItem from="1471855390025" duration="632000" />
+      <workItem from="1471855390025" duration="2664000" />
+      <workItem from="1471876308818" duration="5356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36455000" />
+    <option name="totallyTimeSpent" value="43843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="1" />
@@ -345,18 +327,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -421,11 +403,11 @@
           <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1471758427143" expanded="false" signature="3852:3886" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4281:4296" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4374:4393" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4442:4577" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="5104:5120" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="3850:3884" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4279:4294" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4372:4391" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4440:4575" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="5102:5118" ph="..." />
           </folding>
         </state>
       </provider>
@@ -451,12 +433,19 @@
         <state relative-caret-position="272">
           <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
           <folding>
+            <element signature="n#style#0;n#md-dialog#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ng-md-icon#0;n#md-button#0;n#div#0;n#md-toolbar#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#md-input-container#0;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ng-md-icon#0;n#div#2;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-input-container#0;n#div#2;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ng-md-icon#0;n#md-input-container#1;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ng-md-icon#0;n#div#1;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#0;n#div#1;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#md-input-container#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-radio-button#0;n#md-radio-group#0;n#md-input-container#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-radio-button#1;n#md-radio-group#0;n#md-input-container#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-datepicker#0;n#div#2;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ng-md-icon#0;n#div#3;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#0;n#div#3;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ng-md-icon#0;n#md-input-container#1;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-button#2;n#md-dialog-actions#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -493,11 +482,11 @@
           <caret line="12" column="33" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1471758427143" expanded="false" signature="3852:3886" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4281:4296" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4374:4393" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4442:4577" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="5104:5120" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="3850:3884" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4279:4294" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4372:4391" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4440:4575" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="5102:5118" ph="..." />
           </folding>
         </state>
       </provider>
@@ -541,11 +530,11 @@
           <caret line="12" column="33" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1471758427143" expanded="false" signature="3852:3886" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4281:4296" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4374:4393" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4442:4577" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="5104:5120" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="3850:3884" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4279:4294" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4372:4391" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4440:4575" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="5102:5118" ph="..." />
           </folding>
         </state>
       </provider>
@@ -582,11 +571,11 @@
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1471758427143" expanded="false" signature="3852:3886" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4281:4296" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4374:4393" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4442:4577" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="5104:5120" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="3850:3884" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4279:4294" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4372:4391" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4440:4575" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="5102:5118" ph="..." />
           </folding>
         </state>
       </provider>
@@ -623,11 +612,11 @@
           <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1471758427143" expanded="false" signature="3852:3886" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4281:4296" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4374:4393" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4442:4577" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="5104:5120" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="3850:3884" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4279:4294" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4372:4391" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4440:4575" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="5102:5118" ph="..." />
           </folding>
         </state>
       </provider>
@@ -764,29 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/dashboard/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1471758427143" expanded="false" signature="3852:3886" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4281:4296" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4374:4393" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="4442:4577" ph="..." />
-            <marker date="1471758427143" expanded="false" signature="5104:5120" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/dashboard/student/student.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -807,12 +773,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
           <caret line="86" column="17" selection-start-line="7" selection-start-column="3" selection-end-line="86" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#md-input-container#0;n#md-content#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ng-md-icon#0;n#md-input-container#1;n#md-content#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -824,17 +785,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dashboard/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1471881680290" expanded="false" signature="3850:3884" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4279:4294" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4372:4391" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="4440:4575" ph="..." />
+            <marker date="1471881680290" expanded="false" signature="5102:5118" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/dashboard/tabDialog.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+        <state relative-caret-position="391">
+          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
           <folding>
+            <element signature="n#style#0;n#md-dialog#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ng-md-icon#0;n#md-button#0;n#div#0;n#md-toolbar#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#md-input-container#0;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ng-md-icon#0;n#div#2;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#md-input-container#0;n#div#2;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ng-md-icon#0;n#md-input-container#1;n#md-content#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ng-md-icon#0;n#div#1;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#0;n#div#1;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#md-input-container#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-radio-button#0;n#md-radio-group#0;n#md-input-container#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-radio-button#1;n#md-radio-group#0;n#md-input-container#0;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-datepicker#0;n#div#2;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ng-md-icon#0;n#div#3;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#0;n#div#3;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ng-md-icon#0;n#md-input-container#1;n#md-content#0;n#md-tab#0;n#md-tabs#0;n#md-dialog-content#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-button#2;n#md-dialog-actions#0;n#form#0;n#md-dialog#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -842,27 +840,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/dashboard/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="160" column="14" selection-start-line="160" selection-start-column="14" selection-end-line="160" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+        <state relative-caret-position="-491">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#md-toolbar#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

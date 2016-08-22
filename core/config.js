@@ -20,23 +20,13 @@
                     //loginCompulsory: true,
                     views: {
                         'show': {
-                            templateUrl: "../../SILAB web project/components/dashboard/student/student.html",
-                            controllerAs: "student",
-                            controller: "StudentController"
+                            templateUrl: "../../SILAB web project/components/dashboard/tabDialog.tmpl.html",
+                            controllerAs: "dialog",
+                            controller: "DialogController"
                         }
                     }
                 })
-                .state('dashboard.student.add', {
-                    url: '/add',
-                    //loginCompulsory: true,
-                    views: {
-                        'menuContent': {
-                            templateUrl: "../components/student/add/add.html",
-                            controllerAs: "add",
-                            controller: "AddController"
-                        }
-                    }
-                })
+
 
                 .state("login", {
                     url: "/login",
