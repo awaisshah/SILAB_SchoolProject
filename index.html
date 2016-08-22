@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Management System (online)</title>
+  <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">-->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    <link rel="stylesheet" href="node_modules/angular-material-icons/angular-material-icons.css">
+
+
+    <link rel="stylesheet" href="components/dashboard/dashboard.css">
+    <link rel="stylesheet" href="components/dashboard/student/add/add.css">
+    <link rel="stylesheet" href="components/student1/add/add.css">
+    <link rel="stylesheet" href="components/teacher/add/add.css">
+    <link rel="stylesheet" href="components/panel/panel.css">
+    <link rel="stylesheet" href="components/login/login.css">
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.js"></script>
+    <script src="node_modules/angular-aria/angular-aria.js"></script>
+    <script src="node_modules/angular-material/angular-material.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.7.0/angular-material-icons.min.js"></script>
+    <script src="node_modules/angular-messages/angular-messages.js"></script>
+    <script src="node_modules/angular-material-icons/angular-material-icons.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+
+    <!-- Angular Material Library -->
+<!--    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>-->
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCJTTbgFMYYhkxmN3kxpAuoQBvaS0iuvXU",
+            authDomain: "arzishschool.firebaseapp.com",
+            databaseURL: "https://arzishschool.firebaseio.com",
+            storageBucket: "arzishschool.appspot.com",
+        };
+
+        firebase.initializeApp(config);
+
+    </script>
+
+
+    <script src="./controller.js"></script>
+    <script src="core/config.js"></script>
+    <script src="components/dashboard/dashboard.js"></script>
+    <script src="components/dashboard/student/student.js"></script>
+    <script src="components/dashboard/student/add/add.js"></script>
+    <script src="components/login/login.js"></script>
+    <script src="components/principal/principal.js"></script>
+    <script src="components/student1/student.js"></script>
+    <script src="components/teacher/teacher.js"></script>
+    <script src="components/panel/panel.js"></script>
+    <script src="components/student1/add/add.js"></script>
+    <script src="components/teacher/add/add.js"></script>
+
+
+</head>
+<body ng-app="myApp">
+<div ng-controller="AppController as app" >
+    <md-toolbar class="md-hue-2" style="padding-left: 40%; min-height: 64px;" layout="row">
+        <div class="md-toolbar-tools">
+            <md-button class="md-icon-button"  ng-disabled="true">
+                <!--<ng-md-icon icon="menu" style="fill:white; margin-bottom: 9%;" size="24"></ng-md-icon>-->
+            </md-button>
+            <h2>
+                <span > Arzish Grammer School </span>
+            </h2>
+            <span flex></span>
+        </div>
+</md-toolbar>
+
+
+    <div ui-view></div>
+   <!-- <md-button class="md-raised md-primary" ng-click="app.goToView()">Dashboad</md-button>
+    <md-button class="md-raised md-primary" ng-click="app.goToLogin()">login</md-button>
+    <md-button class="md-raised md-primary" ng-click="app.goToStudnent()">Student</md-button>
+    <md-button class="md-raised md-primary" ng-click="app.goToTeacher()">Teacher</md-button>
+    <md-button class="md-raised md-primary" ng-click="app.goToPanel()">Panel</md-button>-->
+
+</div>
+
+
+
+</body>
+</html>

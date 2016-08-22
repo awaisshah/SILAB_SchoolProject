@@ -1,0 +1,24 @@
+<div  ng-controller="LoginController" layout="column" ng-cloak class="md-inline-form">
+        <md-content md-theme="docs-dark"  layout-padding>
+            <div layout="row" layout-wrap>
+                <div flex="70"></div>
+                <div flex="30">
+                    <md-input-container>
+                        <label>User Name</label>
+                        <input ng-model="username">
+                    </md-input-container>
+                    <md-input-container>
+                        <label>Password</label>
+                        <input ng-model="password" type="password">
+                    </md-input-container>
+                    <md-button class="md-fab md-primary md-hue-2" aria-label="Signin" ng-click="login()" ng-disabled="!username || !password">
+                        <ng-md-icon icon="login" style="fill:white; margin-bottom: 9%;" size="25"></ng-md-icon>
+                    </md-button>
+                </div>
+            </div>
+        </md-content>
+</div>
+
+
+
+
