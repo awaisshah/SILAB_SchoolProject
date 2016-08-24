@@ -3,7 +3,7 @@
  */
 angular.module("myApp")
 
-    .controller("LoginController", ['$state','$scope', LoginController])
+    .controller("LoginController", ['$state','$scope','$timeout', LoginController])
         .config(function($mdThemingProvider) {
             // Configure a dark theme with primary foreground yellow
              $mdThemingProvider.theme('docs-dark', 'default')
@@ -11,7 +11,7 @@ angular.module("myApp")
                  .dark();
         });
 
-function LoginController($state,$scope) {
+function LoginController($state,$scope,$timeout) {
 
 
     $scope.username = '';
@@ -43,7 +43,6 @@ function LoginController($state,$scope) {
         console.log("credentiallllllllllllll >>>>>> "+credential);*/
     };
     $scope.login = function () {
-
         var flag = 1;
         alert($scope.username1+">>>"+$scope.password1);
         firebase.auth().signInWithEmailAndPassword($scope.username1, $scope.password1).catch(function(error) {
@@ -53,6 +52,7 @@ function LoginController($state,$scope) {
             var errorCode = error.code;
             var errorMessage = error.message;
             // ...
+
             console.log("notttttttttttttttttttttttt log in >>>>");
             console.log("flaggggggggggggggggggggg >>>>> : "+flag);
             alert("pa g masla khrb hai ");
@@ -66,7 +66,10 @@ function LoginController($state,$scope) {
                         // No user is signed in.
                     }
                 });
-                $state.go('dashboard');
+                $timeout(function(){
+                    $state.go('dashboard');
+                },0);
+
             }
             console.log("THEEEEEEEEEEEEEEEEEEEEEEEEEEEEEENNNNNNNNNnnnnnnnnnnn");
             console.log("flaggggggggggggggggggggg then : "+flag);

@@ -20,7 +20,8 @@
                     //loginCompulsory: true,
                     views: {
                         'show': {
-                            templateUrl: "../../SILAB web project/components/dashboard/tabDialog.tmpl.html",
+                            /*templateUrl: "../../SILAB web project/components/dashboard/tabDialog.tmpl.html",*/
+                            templateUrl:"../../../SILAB web project/components/dashboard/tabDialog.tmpl.html",
                             controllerAs: "dialog",
                             controller: "DialogController"
                         }
